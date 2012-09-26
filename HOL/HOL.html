@@ -1,0 +1,388 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset=UTF-8" />
+<title>Markdown Preview</title>
+<style>
+body{font-family:helvetica, arial, freesans, clean, sans-serif;color:#333;line-height:1.6;font-size:14px}.markdown-body{line-height:1.6;font-size:14px}.markdown-body > *:first-child{margin-top:0 !important}.markdown-body > *:last-child{margin-bottom:0 !important}.markdown-body a.absent{color:#c00}.markdown-body h1{font-weight:700;-webkit-font-smoothing:antialiased;color:#000;font-size:28px;margin:20px 0 10px;padding:0}.markdown-body h2{font-weight:700;-webkit-font-smoothing:antialiased;color:#000;font-size:24px;border-bottom-color:#ccc;border-bottom-width:1px;border-bottom-style:solid;margin:20px 0 10px;padding:0}.markdown-body h3{font-weight:700;-webkit-font-smoothing:antialiased;font-size:18px;margin:20px 0 10px;padding:0}.markdown-body h4{font-weight:700;-webkit-font-smoothing:antialiased;font-size:16px;margin:20px 0 10px;padding:0}.markdown-body h5{font-weight:700;-webkit-font-smoothing:antialiased;font-size:14px;margin:20px 0 10px;padding:0}.markdown-body h6{font-weight:700;-webkit-font-smoothing:antialiased;color:#777;font-size:14px;margin:20px 0 10px;padding:0}.markdown-body blockquote{color:#777;border-left-color:#ddd;border-left-width:4px;border-left-style:solid;margin:15px 0;padding:0 15px}.markdown-body dl{margin:15px 0;padding:0}.markdown-body table{border-collapse:collapse;margin:15px 0;padding:0}.markdown-body pre{border-radius:3px;border:1px solid #ccc;line-height:19px;overflow:auto;font-size:13px;background-color:#f8f8f8;margin:15px 0;padding:6px 10px}.markdown-body li p.first{display:inline-block}.markdown-body dl dt{font-size:14px;font-style:italic;font-weight:700;margin:15px 0 5px;padding:0}.markdown-body dl dt:first-child{padding:0}.markdown-body dl dd{margin:0 0 15px;padding:0 15px}.markdown-body table tr{border-top-color:#ccc;border-top-width:1px;border-top-style:solid;background-color:#fff;margin:0;padding:0}.markdown-body table tr:nth-child(2n){background-color:#f8f8f8}.markdown-body img{max-width:100%}.markdown-body span.frame{overflow:hidden;display:block}.markdown-body span.frame > span{border:1px solid #ddd;width:auto;overflow:hidden;float:left;display:block;margin:13px 0 0;padding:7px}.markdown-body span.frame span img{float:left;display:block}.markdown-body span.frame span span{color:#333;clear:both;display:block;padding:5px 0 0}.markdown-body span.align-center > span{text-align:center;overflow:hidden;display:block;margin:13px auto 0}.markdown-body span.align-center span img{text-align:center;margin:0 auto}.markdown-body span.align-right > span{text-align:right;overflow:hidden;display:block;margin:13px 0 0}.markdown-body span.align-right span img{text-align:right;margin:0}.markdown-body span.float-left{overflow:hidden;margin-right:13px;float:left;display:block}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{overflow:hidden;margin-left:13px;float:right;display:block}.markdown-body span.float-right > span{text-align:right;overflow:hidden;display:block;margin:13px auto 0}.markdown-body pre > code{border:currentColor;white-space:pre;margin:0;padding:0}.markdown-body .highlight pre{border-radius:3px;border:1px solid #ccc;line-height:19px;overflow:auto;font-size:13px;background-color:#f8f8f8;padding:6px 10px}.markdown-body p,.markdown-body li{margin:15px 0}.markdown-body ul,.markdown-body ol{padding-left:30px;margin:15px 0}.markdown-body > h2:first-child,.markdown-body > h1:first-child,.markdown-body > h1:first-child + h2{border:0 currentColor;padding-top:0;margin-top:0}.markdown-body > h3:first-child,.markdown-body > h4:first-child,.markdown-body > h5:first-child,.markdown-body > h6:first-child{padding-top:0;margin-top:0}.markdown-body h1 + p,.markdown-body h2 + p,.markdown-body h3 + p,.markdown-body h4 + p,.markdown-body h5 + p,.markdown-body h6 + p,.markdown-body ul li > :first-child,.markdown-body ol li > :first-child,.markdown-body dl dt > :first-child,.markdown-body dl dd > :first-child,.markdown-body blockquote > :first-child,.markdown-body table tr th > :first-child,.markdown-body table tr td > :first-child{margin-top:0}.markdown-body ul li > :last-child,.markdown-body ol li > :last-child,.markdown-body dl dt > :last-child,.markdown-body dl dd > :last-child,.markdown-body blockquote > :last-child,.markdown-body table tr th > :last-child,.markdown-body table tr td > :last-child{margin-bottom:0}.markdown-body table tr th,.markdown-body table tr td{border:1px solid #ccc;text-align:left;margin:0;padding:6px 13px}.markdown-body span.align-center,.markdown-body span.align-right{overflow:hidden;clear:both;display:block}.markdown-body code,.markdown-body tt{border-radius:3px;border:1px solid #eaeaea;white-space:nowrap;background-color:#f8f8f8;margin:0 2px;padding:0 5px}.markdown-body pre code,.markdown-body pre tt{border:currentColor;background-color:transparent}span.codelanguage{display:none}
+</style>
+</head>
+<body>
+<div class="markdown-body">
+<p><a name="title"></a></p>
+
+<h1 id="Introduction_to_Building_Windows_Store_Apps_with_Windows_Azure_Mobile_Services">Windows Azure Mobile Services を使用した Windows ストア アプリの作成の概要</h1>
+
+<hr>
+
+<p><a name="Overview"></a></p>
+
+<h2 id="Overview">概要</h2>
+
+<p>このハンズオン ラボでは、Visual Studio 2012 と Windows Azure Mobile Services を利用して Windows ストア アプリケーションに構造化ストレージ、プッシュ通知、および統合認証を追加する方法について学びます。</p>
+
+<p><a name="Objectives"></a></p>
+
+<h3 id="Objectives">目標</h3>
+
+<ul>
+<li>Windows Azure モバイル サービスを作成する</li>
+<li>Windows Azure Mobile Services SDK を使用する</li>
+<li>モバイル サービスから行の挿入、更新、読み取り、および削除を実行する方法を習得する</li>
+<li>アプリケーションにプッシュ通知を追加する</li>
+<li>認証されたユーザーのみが使用できるようにモバイル サービスを制限する</li>
+</ul>
+
+<p><a name="technologies"></a></p>
+
+<h3 id="Prerequisites">前提条件</h3>
+
+<ul>
+<li>Mobile Services のプレビューを有効にした Windows Azure サブスクリプション - <a href="http://www.windowsazure.com/en-us/develop/mobile/tutorials/create-a-windows-azure-account/">Windows Azure アカウントを作成してプレビュー機能を有効にする</a></li>
+<li><a href="http://www.microsoft.com/visualstudio/11/en-us/downloads#groups">Visual Studio 2012</a></li>
+</ul>
+
+<p><a name="Exercises"></a></p>
+
+<h2 id="Exercises">演習</h2>
+
+<p>このハンズオン ラボに含まれる演習は次のとおりです。</p>
+
+<ol>
+<li><a href="#Exercise1">最初のモバイル サービスを作成する</a></li>
+<li><a href="#Exercise2">アプリにプッシュ通知を追加する</a></li>
+<li><a href="#Exercise3">アプリとサービスに認証を追加する</a></li>
+</ol>
+
+<p><a name="Exercise1"></a></p>
+
+<h2 id="Exercise_1_Creating_your_first_Mobile_Service">演習 1: 最初のモバイル サービスを作成する</h2>
+
+<p>この演習では、Windows Azure Mobile Services を使用して Windows 8 アプリにクラウドベースのバックエンド サービスを追加する方法を示します。新しいモバイル サービスと、新しいモバイル サービスにアプリ データを保存する簡単な <em>To do list</em> アプリの両方を作成します。</p>
+
+<p>完成したアプリのスクリーンショットは次のようになります。</p>
+
+<p><img src="images/image-1.png?raw=true" alt="Image 1">
+</p>
+
+<p><a name="create-a-new-mobile-service"></a></p>
+
+<h3 id="Task_1-_Create_a_new_mobile_service">タスク 1 - 新しいモバイル サービスを作成する</h3>
+
+<p>新しいモバイル サービスを作成するには、次の手順に従います。</p>
+
+<ol>
+<li><p><a href="https://manage.windowsazure.com">Windows Azure 管理ポータル</a>にログインし、[モバイル サービス] に移動します。</p></li>
+<li><p><strong>[新規]</strong> ボタンをクリックし、<strong>[モバイル サービス]</strong>、<strong>[作成]</strong> の順にクリックします。</p>
+
+<p><img src="images/image-2.png?raw=true" alt="image-2">
+</p></li>
+<li><p><strong>[モバイル サービス]</strong> を展開し、<strong>[作成]</strong> をクリックします。</p>
+
+<p><img src="images/image-3.png?raw=true" alt="Image 3">
+</p>
+
+<p><strong>[新しいモバイル サービス]</strong> ダイアログ ボックスが表示されます。</p></li>
+<li><p><strong>[モバイル サービスの作成]</strong> ページの <strong>[URL]</strong> ボックスに、新しいモバイル サービスのサブドメイン名を入力し、名前が確認されるまで待ちます。名前の確認が完了したら、右矢印ボタンをクリックして次のページに進みます。</p>
+
+<p><img src="images/image-4.png?raw=true" alt="Image 4">
+</p>
+
+<p><strong>[データベースの設定の指定]</strong> ページが表示されます。</p>
+<blockquote>
+<p><strong>メモ:</strong> このチュートリアルの一環として、新しい SQL データベース インスタンスと SQL データベース サーバーを作成します。この新しいデータベースは、再利用したり、その他の SQL データベース インスタンスと同様に管理したりすることができます。新しいモバイル サービスと同じ地域にデータベースを既に所有している場合は、代わりに [既存のデータベースを使用する] を選択してそのデータベースを選択できます。別の地域にあるデータベースを使用することは、帯域幅コストと待機時間が増加するため、お勧めしません。</p>
+</blockquote></li>
+<li><p><strong>[名前]</strong> ボックスに新しいデータベースの名前を入力し、<strong>[ログイン名]</strong> ボックスに、新しい SQL データベース サーバーの管理者ログイン名を入力します。パスワードを入力および確認入力し、チェック ボタンをクリックして処理を完了します。</p>
+
+<p><img src="images/image-5.png?raw=true" alt="Image 5">
+</p>
+<blockquote>
+<p><strong>メモ:</strong> 指定したパスワードが最小要件を満たしていない場合や不一致が発生している場合は、警告が表示されます。指定した管理者ログイン名とパスワードを書き留めておくことをお勧めします。この情報は、今後 SQL データベース インスタンスまたはサーバーを再利用する際に必要になります。これで、モバイル アプリで使用できる新しいモバイル サービスが作成されました。</p>
+</blockquote></li>
+</ol>
+
+<p>これで、モバイル アプリで使用できる新しいモバイル サービスが作成されました。</p>
+
+<p><a name="create-a-new-app"></a></p>
+
+<h3 id="Task_2_-_Create_a_new_app">タスク 2 - 新しいアプリを作成する</h3>
+
+<p>モバイル サービスを作成したら、管理ポータルの簡単なクイック スタートに従って、新しい Windows ストア アプリを作成するか、既存のアプリをモバイル サービスに接続するように変更することができます。</p>
+
+<ol>
+<li><p>管理ポータルで、<strong>[モバイル サービス]</strong> をクリックし、先ほど作成したモバイル サービスをクリックします。</p></li>
+<li><p>[クイック スタート] タブで、<strong>[新しい Windows 8 アプリケーションを作成します]</strong> を展開します。</p>
+
+<p><img src="images/image-6.png?raw=true" alt="Image 6">
+</p>
+
+<p>これにより、モバイル サービスに接続された Windows 8 アプリを作成するための簡単な 3 つの手順が表示されます。</p>
+
+<p><img src="images/image-7.png?raw=true" alt="Image 7">
+</p></li>
+<li><p>まだインストールしていない場合は、<a href="http://go.microsoft.com/fwlink/?LinkId=257546&clcid=0x409">Visual Studio 2012 Express for Windows 8</a> と<a href="http://go.microsoft.com/fwlink/?LinkId=257545&clcid=0x409">モバイル サービス SDK</a> をダウンロードしてローカル コンピューターまたは仮想マシンにインストールします。</p>
+
+<p>これにより、モバイル サービスに接続されている <em>To do list</em> サンプル アプリケーションのプロジェクトがダウンロードされます。圧縮されたプロジェクト ファイルをローカル コンピューターに保存し、保存場所を書き留めておいてください。</p></li>
+</ol>
+
+<p><a name="run-your-app"></a></p>
+
+<h3 id="Task_3_-_Run_your_app">タスク 3 - アプリを実行する</h3>
+
+<ol>
+<li><p>圧縮されたプロジェクト ファイルの保存場所を参照し、ファイルをコンピューター上に展開して、Visual Studio 2012 Express for Windows 8 でソリューション ファイルを開きます。</p>
+
+<p><img src="images/image-23.png?raw=true" alt="Image 23">
+</p></li>
+<li><p><strong>F5</strong> キーを押してプロジェクトをリビルドし、アプリを起動します。</p></li>
+<li><p>アプリの <strong>[Insert a TodoItem]</strong> ボックスにわかりやすいテキスト (「Complete the demo」など) を入力し、<strong>[Save]</strong> をクリックします。<em></em></p>
+
+<p><img src="images/image-9.png?raw=true" alt="Image 9">
+</p>
+
+<p>これにより、Windows Azure でホストされている新しいモバイル サービスに POST 要求が送信されます。要求のデータは TodoItem テーブルに挿入されます。テーブルに格納された項目はモバイル サービスによって返され、データはアプリの 2 番目の列に表示されます。</p>
+<blockquote>
+<p><strong>メモ:</strong> モバイル サービスにアクセスして MainPage.xaml.cs ファイル (C#/XAML プロジェクト) または default.js ファイル (JavaScript/HTML プロジェクト) にあるデータを照会および挿入するコードを確認できます。</p>
+</blockquote></li>
+<li><p>管理ポータルに戻り、<strong>[データ]</strong> タブをクリックし、<strong>TodoItem</strong> テーブルをクリックして、データが正常に保存されたことを確認します。</p>
+
+<p><img src="images/image-10.png?raw=true" alt="Image 10">
+</p>
+
+<p>これで、アプリによってテーブルに挿入されたデータを参照できます。</p>
+
+<p><img src="images/image-11.png?raw=true" alt="Image 11">
+</p></li>
+</ol>
+
+<p><a name="Explore-your-app-code"></a></p>
+
+<h3 id="Task_4_-_Explore_your_app_code">タスク 4 - アプリのコードを確認する</h3>
+
+<p>この手順では、<em>To do list</em> アプリケーションのコードを調べて、Windows Azure Mobile Services Client SDK によって Windows Azure モバイル サービスとの対話がどの程度簡単になっているかを確認します。</p>
+
+<ol>
+<li><p>Visual Studio 2012 で、ダウンロードした <em>To do list</em> アプリケーションに戻ります。</p></li>
+<li><p>ソリューション エクスプローラーで、<strong>[参照]</strong> フォルダーを展開し、Windows Azure Mobile Services Client SDK 参照を表示します。</p>
+<blockquote>
+<p><strong>メモ:</strong> 任意の Windows ストア アプリから Windows Azure Mobile Services Client SDK への参照を追加することもできます。[参照の追加] ダイアログ ボックスの使用</p>
+</blockquote></li>
+<li><p>App.xaml.cs を開き、MobileServiceClient クラスを表示します。これは、Mobile Services Client SDK に用意されている重要なクラスで、アプリケーションが Windows Azure Mobile Services と対話するための手段を提供します。コンストラクターの最初のパラメーターはモバイル サービスのエンドポイントで、2 番目のパラメーターはモバイル サービスのアプリケーション キーです。</p>
+
+<span class="codelanguage">C#</span><pre><code class="C#"><span style="color:#0000FF">public</span><span style="color:#0000FF">static</span> MobileServiceClient MobileService = <span style="color:#0000FF">new</span> MobileServiceClient( <span style="color:#8B0000">"https://cloudnick.azure-mobile.net/"</span> ,<span style="color:#8B0000">"vIWepmcOXGPsYCJQDDcFBKsnOVxzLG52"</span> ); </code></pre></li>
+<li><p><strong>MainPage.xaml.cs</strong> を開き、挿入、更新、読み取り、および削除に対してモバイル サービス クライアントがどのように使用されるかを確認します。</p>
+
+<ul>
+<li><p>このソースにより、テーブルに対する操作のハンドルが作成されます。</p>
+
+<span class="codelanguage">C#</span><pre><code class="C#"><span style="color:#0000FF">private</span> IMobileServiceTable&lt;TodoItem&gt; todoTable = App.MobileService.GetTable&lt;TodoItem&gt;(); </code></pre></li>
+<li><p>挿入を実行する</p>
+
+<!-- mark:3;--> <span class="codelanguage">C#</span><pre><code class="C#"><span style="color:#0000FF">private</span><span style="color:#0000FF">async</span><span style="color:#0000FF">void</span> InsertTodoItem(TodoItem todoItem) { <strong class="markLine"><span style="color:#0000FF">await</span> todoTable.InsertAsync(todoItem);</strong> items.Add(todoItem); } </code></pre></li>
+<li><p>更新を実行する</p>
+
+<!-- mark:3 --> <span class="codelanguage">C#</span><pre><code class="C#"><span style="color:#0000FF">private</span><span style="color:#0000FF">async</span><span style="color:#0000FF">void</span> UpdateCheckedTodoItem(TodoItem item) { <strong class="markLine"><span style="color:#0000FF">await</span> todoTable.UpdateAsync(item);</strong> items.Remove(item); } </code></pre></li>
+<li><p>読み取りを実行する</p>
+
+<!-- mark:3-4 --> <span class="codelanguage">C#</span><pre><code class="C#"><span style="color:#0000FF">private</span><span style="color:#0000FF">void</span> RefreshTodoItems() { <strong class="markLine"> items = todoTable</strong><strong class="markLine"> .Where(todoItem =&gt; todoItem.Complete == <span style="color:#0000FF">false</span>)</strong> .ToCollectionView(); ListItems.ItemsSource = items; } </code></pre></li>
+</ul></li>
+<li><p>さらに発展させ、todoTable.DeleteAsync(...) メソッドを使用して更新操作ではなく削除操作を実行するように <em>UpdateCheckedTodoItem</em> メソッドを更新できるかどうかを確認します。</p></li>
+</ol>
+
+<p><a name="Exercise2"></a></p>
+
+<h2 id="Exercise_2_Adding_Push_Notifications_to_your_app">演習 2: アプリにプッシュ通知を追加する</h2>
+
+<p>デモでは、Windows プッシュ通知サービス (WNS) を使用したプッシュ通知をクイック スタート プロジェクトに追加します。完了すると、モバイル サービスの todolist テーブルで挿入を実行したときにアプリに対してプッシュ通知が生成されます。</p>
+
+<p><a name="Register-your-app-for-push-notifications-and-configure-Mobile-Services"></a></p>
+
+<h3 id="Task_1_-_Register_your_app_for_push_notifications_and_configure_Mobile_Services">タスク 1 - プッシュ通知用のアプリを登録してモバイル サービスを構成する</h3>
+
+<ol>
+<li><p><a href="http://go.microsoft.com/fwlink/?LinkID=257677&clcid=0x409">Windows Push Notifications &amp; Live Connect</a> ページに移動し、必要な場合は Microsoft アカウントでログインします。その後、指示に従ってアプリを登録します。</p>
+<blockquote>
+<p><strong>メモ:</strong> 重要なのは、CN フィールドに提示された値が、アプリケーションの <em>package.appxmanifest</em> の [パッケージ化] タブにある [発行者] フィールドと同じになるようにすることです。<em></em></p>
+</blockquote></li>
+<li><p>アプリの登録処理の最後に、WNS の資格情報が表示されます。そのページを開いたままにしておくか、<strong>[パッケージ名]</strong>、<strong>[クライアント シークレット]</strong>、および <strong>[パッケージ SID]</strong> の内容を書き留めておきます。</p>
+
+<p><img src="images/image-12.png?raw=true" alt="Image 12">
+ </p>
+
+<p>WNS を使用できるようにするには、[モバイル サービス] にこれらの値を指定する必要があります。</p>
+<blockquote>
+<p><strong>メモ:</strong> クライアント シークレットとパッケージ SID は、重要なセキュリティ資格情報です。これらの機密情報は、他のユーザーと共有したり、アプリで配信したりしないでください。</p>
+</blockquote></li>
+<li><p><a href="https://manage.windowsazure.com/">Windows Azure 管理ポータル</a>にログオンし、<strong>[モバイル サービス]</strong> をクリックして、アプリをクリックします。</p>
+
+<p><img src="images/image-13.png?raw=true" alt="Image 13">
+</p></li>
+<li><p><strong>[プッシュ]</strong> タブをクリックし、上記の WNS について取得した値を <strong>[クライアント シークレット]</strong> と <strong>[パッケージ SID]</strong> に入力して、<strong>[保存]</strong> をクリックします。</p>
+
+<p><img src="images/image-14.png?raw=true" alt="Image 14">
+</p></li>
+<li><p>Visual Studio で、<strong>package.appxmanifest</strong> を開き、<strong>[パッケージ化]</strong> タブを選択し、Windows Push Notifications &amp; Live Connect ポータルに表示された内容と一致するように [パッケージ名] フィールドを更新します。</p>
+
+<p><img src="images/image-15.png?raw=true" alt="Image 15">
+</p>
+
+<p><img src="images/image-18.png?raw=true" alt="Image 18">
+</p></li>
+</ol>
+
+<p><a name="Add-push-notifications-to-the-app"></a></p>
+
+<h3 id="Task_2_-_Add_push_notifications_to_the_app">タスク 2 - アプリにプッシュ通知を追加する</h3>
+
+<ol>
+<li><p>Visual Studio で <strong>package.appxmanifest</strong> を開き、Windows Push Notifications &amp; Live Connect ポータルに表示された WNS の資格情報から "パッケージ名" をコピーし、Visual Studio の [パッケージ名] フィールドに貼り付けます。<em></em></p></li>
+<li><p>package.appxmanifest で、<strong>[アプリケーション UI]</strong> タブを選択し、<strong>[トースト対応]</strong> が "はい" に設定されていることを確認します。</p>
+<blockquote>
+<p><strong>メモ:</strong> ワイド タイルを送信する場合は、[ワイド ロゴ] フィールドで既定のワイド タイルを指定する必要があります。</p>
+</blockquote></li>
+<li><p><strong>App.xaml.cs</strong> ファイルを開きます。</p></li>
+<li><p>次のように、<strong>Channel.cs</strong> クラスを追加します。</p>
+
+<span class="codelanguage">C#</span><pre><code class="C#"><span style="color:#0000FF">public</span><span style="color:#0000FF">class</span> Channel { <span style="color:#0000FF">public</span><span style="color:#0000FF">int</span> Id { <span style="color:#0000FF">get</span>; <span style="color:#0000FF">set</span>; } <span style="color:#0000FF">public</span><span style="color:#0000FF">string</span> Uri { <span style="color:#0000FF">get</span>; <span style="color:#0000FF">set</span>; } } </code></pre></li>
+<li><p>次の using ステートメントを追加します。</p>
+
+<span class="codelanguage">C#</span><pre><code class="C#"><span style="color:#0000FF">using</span> Windows.Networking.PushNotifications; </code></pre></li>
+<li><p>OnLaunched メソッドを探して、次のように <strong>async</strong> とマークします。</p>
+
+<span class="codelanguage">C#</span><pre><code class="C#"><span style="color:#0000FF">protected</span><span style="color:#0000FF">async</span><span style="color:#0000FF">override</span><span style="color:#0000FF">void</span> OnLaunched(LaunchActivatedEventArgs args) </code></pre></li>
+<li><p>次の 2 行のコードを OnLaunched に追加し、通知チャネルを要求してモバイル サービス アプリに登録します。</p>
+
+<span class="codelanguage">C#</span><pre><code class="C#"><span style="color:#0000FF">var</span> ch = <span style="color:#0000FF">await</span> PushNotificationChannelManager.CreatePushNotificationChannelForApplicationAsync(); <span style="color:#0000FF">await</span> MobileService.GetTable&lt;Channel&gt;().InsertAsync(<span style="color:#0000FF">new</span> Channel() { Uri = ch.Uri }); </code></pre></li>
+</ol>
+
+<p>クライアントを接続し、チャネルを要求してモバイル サービスに書き込んだので、モバイル サービスに Channel テーブルを追加し、プッシュ通知を送信するためのサーバー側のスクリプトを追加することが必要になります。</p>
+
+<p><a name="Insert-data-to-receive-notifications"></a></p>
+
+<h3 id="Task_3_-_Insert_data_to_receive_notifications">タスク 3 - データを挿入して通知を受け取る</h3>
+
+<p>このセクションでは、Channel テーブルと、todolist への挿入が実行されるたびにプッシュ通知を送信するサーバー側のスクリプトを追加します。</p>
+
+<ol>
+<li><p><a href="https://manage.windowsazure.com/">Windows Azure 管理ポータル</a>に戻り、<strong>[モバイル サービス]</strong> をクリックして、アプリをクリックします。</p></li>
+<li><p><strong>[データ]</strong> タブを選択します。</p></li>
+<li><p>下部のツール バーにある <strong>[作成]</strong> をクリックします。</p>
+
+<p><img src="images/image-19.png?raw=true" alt="Image 19">
+</p></li>
+<li><p><strong>[テーブル名]</strong> に「Channel」と入力し、チェック ボタンをクリックします。<em></em></p>
+
+<p><img src="images/image-20.png?raw=true" alt="Image 20">
+</p></li>
+<li><p>新しい <strong>Channel</strong> テーブルをクリックし、データ行がないことを確認します。</p></li>
+<li><p><strong>[段組み]</strong> タブをクリックし、自動的に作成される <strong>id</strong> 列のみがあることを確認します。これは、Mobile Services のテーブルの最小要件です。</p>
+<blockquote>
+<p><strong>メモ:</strong> モバイル サービスで動的スキーマを有効にすると、挿入操作または更新操作によって JSON オブジェクトがモバイル サービスに送信されるときに新しい列が自動的に作成されます。</p>
+</blockquote></li>
+<li><p>[スクリプト] タブをクリックし、<strong>[挿入]</strong> 操作を選択します。</p></li>
+<li><p>既存のスクリプトを次のスクリプトと置き換えます。</p>
+
+<span class="codelanguage">JavaScript</span><pre><code class="JavaScript"><span style="color:#0000FF">function</span> insert(item, user, request) { <span style="color:#0000FF">var</span> channelTable = tables.getTable('Channel'); channelTable.where({ uri: item.Uri }) .read({ success: insertChannelIfNotFound}); <span style="color:#0000FF">function</span> insertChannelIfNotFound(existingChannels) { <span style="color:#0000FF">if</span>(existingChannels.<span style="color:#0000FF">length</span> &gt; 0) { request.respond(200, existingChannels[0]); } <span style="color:#0000FF">else</span> { request.execute(); } } } </code></pre>
+<blockquote>
+<p><strong>メモ:</strong> このスクリプトの目的は、サンプル アプリケーションで OnLaunched ハンドラーが実行されるたびに、同じ URI を持つ複数のチャネルが送信されないようにすることです。このコードは、ハンズオン ラボのシナリオには十分ですが、実際のアプリケーションでは、uri: item.Uri で照合するのではなく ID を使用して、置き換えるチャネルを特定します。その理由は、チャネルは有効期限が切れると、新しい一意のチャネル URI に置き換えられるためです。</p>
+</blockquote></li>
+<li><p>下部のツール バーにある <strong>[保存]</strong> をクリックします。</p>
+
+<p><img src="images/image-21.png?raw=true" alt="Image 21">
+</p></li>
+<li><p>左側のナビゲーション バーで <strong>TodoItem</strong> テーブルを選択します。</p></li>
+<li><p><strong>[スクリプト]</strong> タブをクリックし、<strong>[挿入]</strong> 操作を選択します。既存のスクリプトを次のスクリプトと置き換え、次のコードを実行します。</p>
+
+<span class="codelanguage">JavaScript</span><pre><code class="JavaScript"><span style="color:#0000FF">function</span> insert(item, user, request) { request.execute({ success: <span style="color:#0000FF">function</span>(){ request.respond(); sendNotifications(item); }, error: <span style="color:#0000FF">function</span>(err){ request.respond(500, <span style="color:#8B0000">"Error"</span>); } }); } <span style="color:#0000FF">function</span> sendNotifications(item){ <span style="color:#0000FF">var</span> channelTable = tables.getTable('Channel'); channelTable.read({ success: <span style="color:#0000FF">function</span>(channels){ channels.forEach(<span style="color:#0000FF">function</span>(channel){ push.wns.sendToastText04(channel.Uri, { text1: item.text, text2: <span style="color:#8B0000">"Hello World 1"</span>, text3: <span style="color:#8B0000">"Hello World 2"</span> }, { success: <span style="color:#0000FF">function</span>(response){ console.log(response); }, error: <span style="color:#0000FF">function</span>(err){ console.error(err); } }); }); } }); } </code></pre>
+<blockquote>
+<p><strong>メモ:</strong> このスクリプトは、Todoitem テーブルに対して挿入操作が実行されるたびに実行されます。sendNotifications メソッドは、Channels テーブルからすべてのチャネルを選択し、各チャネル URI にプッシュ通知を送信してそのチャネルを反復処理します。ここでは、push.wns.* 名前空間が提供するトースト テンプレートを 1 つだけ紹介しましたが、トースト、タイル、およびバッチの更新を送信するのに必要なメソッドを使用するのは簡単です。このシナリオでは、ご覧のとおり、3 行のテキストを必要とする ToastText04 テンプレートを送信しています。アプリケーションを作成する際は、トースト通知はあまり頻繁に送信せずに、アプリケーションのユーザーに配信する重要なメッセージがあるときにだけ送信することをお勧めします。</p>
+</blockquote>
+<p><img src="images/image-22.png?raw=true" alt="Image 22">
+</p></li>
+</ol>
+
+<p>次に、モバイル サービスのエンドポイントをセキュリティで保護する方法を見てみましょう。</p>
+
+<p><a name="Exercise3"></a></p>
+
+<h2 id="Exercise_3_Adding_Auth_to_Your_App_and_Services">演習 3: アプリとサービスに認証を追加する</h2>
+
+<p>このデモでは、Windows 8 アプリから Windows Azure Mobile Services のユーザーを認証する方法を示します。このデモでは、Live Connect を使用して、クイック スタート プロジェクトに認証を追加します。Live Connect による認証が成功すると、ログインでモバイル サービスを使用できるようになります。</p>
+
+<p><a name="Register-your-app"></a></p>
+
+<h3 id="Task_1_-_Register_your_app">タスク 1 - アプリを登録する</h3>
+
+<p>ユーザーを認証できるようにするには、Live Connect デベロッパー センターで Windows 8 アプリを登録する必要があります。その後、クライアント シークレットを登録して Live Connect を Mobile Services と統合する必要があります。</p>
+
+<ol>
+<li><p><a href="http://go.microsoft.com/fwlink/?LinkID=257677&clcid=0x409">Windows Push Notifications &amp; Live Connect</a> ページに移動し、必要な場合は Microsoft アカウントでログオンします。</p></li>
+<li><p>認証を有効にするために、ここで、Live Connect デベロッパー センターの<a href="http://go.microsoft.com/fwlink/?LinkId=262039&clcid=0x409">マイ アプリ ダッシュボード</a>に移動し、<strong>[マイ アプリケーション]</strong> の一覧でアプリをクリックする必要があります。</p>
+
+<p><img src="images/image-24.png?raw=true" alt="Image 24">
+</p></li>
+<li><p><strong>[設定の編集]</strong>、<strong>[API 設定]</strong> の順にクリックし、<strong>[クライアント シークレット]</strong> の値を書き留めておきます。</p>
+
+<p><img src="images/image-25.png?raw=true" alt="Image 25">
+</p>
+
+<p>認証に Live Connect を使用できるようにするには、[モバイル サービス] にこの値を指定する必要があります。</p>
+<blockquote>
+<p><strong>メモ:</strong> クライアント シークレットは、重要なセキュリティ資格情報です。クライアント シークレットは、他のユーザーと共有したり、アプリで配信したりしないでください。</p>
+</blockquote></li>
+<li><p><strong>[リダイレクト ドメイン]</strong> に、モバイル サービスのドメインを <strong>https://</strong><strong>service-name</strong><strong>.azure-mobile.net/</strong> 形式 (<em>service-name</em> はモバイル サービスの名前です) で入力し、<strong>[保存]</strong> をクリックします。</p></li>
+<li><p><a href="https://manage.windowsazure.com/">Windows Azure 管理ポータル</a>に戻り、<strong>[モバイル サービス]</strong> をクリックして、アプリをクリックします。</p>
+
+<p><img src="images/image-26.png?raw=true" alt="Image 26">
+</p></li>
+<li><p><strong>[識別]</strong> タブをクリックし、Live Connect から取得した値を <strong>[クライアント シークレット]</strong> を入力して、<strong>[保存]</strong> をクリックします。</p>
+
+<p><img src="images/image-27.png?raw=true" alt="Image 27">
+</p></li>
+</ol>
+
+<p><a name="Restrict-permissions"></a></p>
+
+<h3 id="Task_2_-_Restrict_permissions">タスク 2 - アクセス許可を制限する</h3>
+
+<ol>
+<li><p>管理ポータルで、<strong>[データ]</strong> タブをクリックし、<strong>TodoItem</strong> テーブルをクリックします。</p>
+
+<p><img src="images/image-28.png?raw=true" alt="Image 28">
+</p></li>
+<li><p><strong>[アクセス許可]</strong> タブで、すべてのアクセス許可を <strong>[認証されたユーザーのみ]</strong> に設定し、<strong>[保存]</strong> をクリックします。これにより、<strong>TodoItem</strong> テーブルに対するすべての操作には、認証されたユーザーが必要になります。また、次のチュートリアルのスクリプトは、匿名ユーザーの可能性を考慮する必要がなくなるため、簡素化されます。</p>
+
+<p><img src="images/image-29.png?raw=true" alt="Image 29">
+</p></li>
+<li><p>Visual Studio 2012 に戻り、<strong>F5</strong> キーを押してこのクイック スタート ベースのアプリを実行します。その結果、状態コード 401 (許可されていません) の例外が発生することを確認します。これは、認証されていないユーザーとしてアプリから Mobile Services にアクセスしているのに、<em>TodoItem</em> テーブルでは認証が要求されるため、発生します。</p></li>
+</ol>
+
+<p>次に、モバイル サービスからリソースを要求する前に Live Connect を使用してユーザーを認証するようにアプリを更新します。</p>
+
+<p><a name="Add-authentication"></a></p>
+
+<h3 id="Task_3_-_Add_authentication">タスク 3 - 認証を追加する</h3>
+
+<ol>
+<li><p><a href="http://go.microsoft.com/fwlink/?LinkId=262253&clcid=0x409">Windows 向け Live SDK</a> をダウンロードしてインストールします。</p></li>
+<li><p>Visual Studio のプロジェクトで、Live SDK への参照を追加します。</p></li>
+<li><p>mainpage.xaml.cs プロジェクト ファイルを開き、次の using ステートメントを追加します。</p>
+
+<span class="codelanguage">C#</span><pre><code class="C#"><span style="color:#0000FF">using</span> Microsoft.Live; <span style="color:#0000FF">using</span> Windows.UI.Popups; </code></pre></li>
+<li><p>現在の Live Connect セッションを保存するためのメンバー変数と認証プロセスを処理するためのメソッドを作成する次のコード スニペットを追加します。</p>
+
+<span class="codelanguage">C#</span><pre><code class="C#"><span style="color:#0000FF">private</span> LiveConnectSession session; <span style="color:#0000FF">private</span><span style="color:#0000FF">async</span> System.Threading.Tasks.Task Authenticate() { LiveAuthClient liveIdClient = <span style="color:#0000FF">new</span> LiveAuthClient(<span style="color:#8B0000">"&lt;&lt; INSERT REDIRECT DOMAIN HERE &gt;&gt;"</span>); <span style="color:#0000FF">while</span> (session == <span style="color:#0000FF">null</span>) { <span style="color:#008000">// Force a logout to make it easier to test with multiple Microsoft Accounts</span><span style="color:#0000FF">if</span> (liveIdClient.CanLogout) liveIdClient.Logout(); LiveLoginResult result = <span style="color:#0000FF">await</span> liveIdClient.LoginAsync(<span style="color:#0000FF">new</span>[] { <span style="color:#8B0000">"wl.basic"</span> }); <span style="color:#0000FF">if</span> (result.Status == LiveConnectSessionStatus.Connected) { session = result.Session; LiveConnectClient client = <span style="color:#0000FF">new</span> LiveConnectClient(result.Session); LiveOperationResult meResult = <span style="color:#0000FF">await</span> client.GetAsync(<span style="color:#8B0000">"me"</span>); MobileServiceUser loginResult = <span style="color:#0000FF">await</span> App.MobileService.LoginAsync(result.Session.AuthenticationToken); <span style="color:#0000FF">string</span> title = <span style="color:#0000FF">string</span>.Format(<span style="color:#8B0000">"Welcome {0}!"</span>, meResult.Result[<span style="color:#8B0000">"first_name"</span>]); <span style="color:#0000FF">var</span> message = <span style="color:#0000FF">string</span>.Format(<span style="color:#8B0000">"You are now logged in - {0}"</span>, loginResult.UserId); <span style="color:#0000FF">var</span> dialog = <span style="color:#0000FF">new</span> MessageDialog(message, title); dialog.Commands.Add(<span style="color:#0000FF">new</span> UICommand(<span style="color:#8B0000">"OK"</span>)); <span style="color:#0000FF">await</span> dialog.ShowAsync(); } <span style="color:#0000FF">else</span> { session = <span style="color:#0000FF">null</span>; <span style="color:#0000FF">var</span> dialog = <span style="color:#0000FF">new</span> MessageDialog(<span style="color:#8B0000">"You must log in."</span>, <span style="color:#8B0000">"Login Required"</span>); dialog.Commands.Add(<span style="color:#0000FF">new</span> UICommand(<span style="color:#8B0000">"OK"</span>)); <span style="color:#0000FF">await</span> dialog.ShowAsync(); } } } </code></pre></li>
+<li><p>前の手順に含まれる文字列 <em>&lt;&lt; INSERT REDIRECT DOMAIN HERE &gt;&gt;</em> を、Live Connect でアプリを設定する際に指定されたリダイレクト ドメイン (<strong>https://</strong><strong>service-name</strong><strong>.azure-mobile.net/</strong> 形式) で更新します。</p></li>
+<li><p><strong>OnNavigatedTo</strong> イベント ハンドラーが非同期になるように更新し、<strong>Authenticate</strong> メソッドの呼び出しを追加します。</p>
+
+<!-- mark:1,3 --> <span class="codelanguage">C#</span><pre><code class="C#"><strong class="markLine"><span style="color:#0000FF">protected</span><span style="color:#0000FF">async</span><span style="color:#0000FF">override</span><span style="color:#0000FF">void</span> OnNavigatedTo(NavigationEventArgs e)</strong> { <strong class="markLine"><span style="color:#0000FF">await</span> Authenticate();</strong> RefreshTodoItems(); } </code></pre></li>
+<li><p>F5 キーを押してアプリを実行し、Microsoft アカウントを使用して Live Connect にサインインします。</p></li>
+</ol>
+
+<p>ログインに成功すると、アプリはエラーなしで実行されます。また、モバイル サービスを照会してデータを更新できるようになります。</p>
+
+<hr>
+
+</div>
+</body>
+</html>
